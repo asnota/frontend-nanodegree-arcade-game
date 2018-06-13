@@ -1,6 +1,40 @@
-frontend-nanodegree-arcade-game
-===============================
+# Arcade Game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## Table of Contents
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+* [Prerequisites](#prerequisites)
+* [Goals](#goals)
+* [Instructions](#instructions)
+* [Contributing](#contributing)
+* [Deployment](#deployment)
+* [Authors](#authors)
+* [License](#license)
+
+
+## Prerequisites
+
+This is a browser game, which is built using responsive design patterns and ideally should be accessible on any device with the Internet connection.
+
+## Goals
+
+The game aims to develop the player's understanding of the limitations and needs of people with visual impairment, since the navigation is possible only through keys.
+
+## Instructions
+
+Player should use the up key to move the avatar to the water and avoid vehicles, which are taking the hero's lives one by one at every collision. The hero is given 10 lives at the beginning of the game and each time the live is taken, the alert window appears and informs about lives left. Every successful cross to the river is also accompanied by the alert window, indicating the current score of the player. After each alert window appearance, the hero is returned to the primer position and needs to cross the dangerous street again. If the lives are entirely used, the game overs and resents both lives and score counters.
+
+## Contributing
+
+This repository accepts pull requests.
+
+## Deployment
+
+The project is built with pure JavaScript. No dependencies were used.
+
+## Authors
+
+The initial commit belongs to Udacity shcolars, provided as a template to the third project in the framework of Front-End Nanodegree program at Udacity learning platform.
+
+## License
+
+This project is licensed under the MIT License.
