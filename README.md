@@ -5,7 +5,7 @@
 * [Prerequisites](#prerequisites)
 * [Goals](#goals)
 * [Instructions](#instructions)
-* [Local installation](#local installation)
+* [Local installation](#local_installation)
 * [Contributing](#contributing)
 * [Deployment](#deployment)
 * [Authors](#authors)
@@ -25,7 +25,7 @@ The game aims to develop the player's understanding of the limitations and needs
 Player should use the up key to move the avatar to the water and avoid vehicles, which are taking the hero's lives one by one at every collision. The hero is given 10 lives at the beginning of the game and each time the live is taken, the alert window appears and informs about lives left. Every successful cross to the river is also accompanied by the alert window, indicating the current score of the player. After each alert window appearance, the hero is returned to the primer position and needs to cross the dangerous street again. If the lives are entirely used, the game overs and resents both lives and score counters.
 
 ## Local installation
-In order to install the game logically, please download the zip folder with the game, unzip it and run index.html file. 
+In order to install the game logically, please download the zip folder with the game, unzip it and run index.html file.
 
 ## Contributing
 
